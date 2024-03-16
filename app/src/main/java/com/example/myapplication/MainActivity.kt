@@ -45,7 +45,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier) {
     val image = painterResource(R.drawable.tecnologia)
-    Box(modifier) {
+    Box(modifier) {git init
         Image(
             painter = image,
             contentDescription = null,
